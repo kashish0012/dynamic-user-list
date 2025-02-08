@@ -1,4 +1,4 @@
-# Dynamic List with Filtering (React + Vite)
+# Dynamic List with Filtering
 
 This project is a dynamic user list application built with **React** and **Vite**. It fetches user data from an external API, displays the details, and allows users to filter the list dynamically using a search bar. The matched text in the search results is highlighted, and a message is displayed if no users match the search criteria.
 
