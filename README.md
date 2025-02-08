@@ -40,9 +40,9 @@ Follow these steps to set up the project locally:
     ```
 
 4. Start the development server:
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
 5. Open the application:
     Visit `http://localhost:5173` in your browser to view the application.
@@ -67,22 +67,22 @@ npm run dev
 
 ## Code Structure
 
-```
-dynamic-list-filtering/
-├── public/
-├── src/
-│   ├── components/          # Reusable components
-│   │    ├── UserCard.jsx/
-│   │    ├── UserList.jsx/   
-│   ├── App.jsx              # Main application component with API service functions
-│   ├── main.jsx             # Entry point
-│   └── App.css           # Global styles
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
-```
+    ```
+    dynamic-list-filtering/
+    ├── public/
+    ├── src/
+    │   ├── components/          # Reusable components
+    │   │    ├── UserCard.jsx/
+    │   │    ├── UserList.jsx/   
+    │   ├── App.jsx              # Main application component with API service functions
+    │   ├── main.jsx             # Entry point
+    │   └── App.css           # Global styles
+    ├── .gitignore
+    ├── index.html
+    ├── package.json
+    ├── README.md
+    └── vite.config.js
+    ```
 
 ## API Used
 This project uses the JSONPlaceholder API to fetch user data. The API provides a list of fake users with details such as name, email, and company name.
